@@ -1,5 +1,8 @@
 # RepoForge Logstream
 
+> RepoForge has moved to the monorepo: <https://github.com/CoolAlbert/repoforge>.
+> This repository is kept as the initial multi-repo spike.
+
 Structured log helpers for RepoForge.
 
 ## RepoForge repositories
