@@ -1,0 +1,23 @@
+{
+  "name": "@repoforge/logstream",
+  "version": "0.1.0",
+  "description": "Structured NDJSON and SSE log streaming helpers for RepoForge runners.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "repoforge",
+    "logs",
+    "sse",
+    "web-tail"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^7.0.2"
+  }
+}
