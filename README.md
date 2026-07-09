@@ -2,6 +2,13 @@
 
 Structured log helpers for RepoForge.
 
+## RepoForge repositories
+
+- [`repoforge-control`](https://github.com/CoolAlbert/repoforge-control) - control API and SSE endpoint
+- [`repoforge-runner`](https://github.com/CoolAlbert/repoforge-runner) - worker that emits structured logs
+- [`repoforge-logstream`](https://github.com/CoolAlbert/repoforge-logstream) - this package
+- [`repoforge-ui`](https://github.com/CoolAlbert/repoforge-ui) - dashboard that consumes the SSE stream
+
 This package intentionally keeps the first version small:
 
 - NDJSON encoding for runner output
